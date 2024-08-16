@@ -208,14 +208,14 @@ static const uint8_t asciiTable[][OLED_EXP_CHAR_LENGTH] = {
 };
 
 // Variables
-int 	_vccState;
-int 	_memoryMode;
+extern int 	_vccState;
+extern int 	_memoryMode;
 
-int 	_buffer[OLED_EXP_WIDTH * OLED_EXP_PAGES];
-int 	_cursor;
+extern int 	_buffer[OLED_EXP_WIDTH * OLED_EXP_PAGES];
+extern int 	_cursor;
 
-int 	_cursorInRow;
-int 	_bColumnsSetForText;
+extern int 	_cursorInRow;
+extern int 	_bColumnsSetForText;
 
 #ifdef __cplusplus
 extern "C" {

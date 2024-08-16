@@ -1,5 +1,12 @@
 #include <oled-exp.h>
 
+int _bColumnsSetForText = 0;
+int _cursorInRow = 0;
+int _cursor = 0;
+int _buffer[1024] = {0}; // Assuming this is an array
+int _memoryMode = 0;
+int _vccState = 0;
+
 // Send command byte to OLED Expansion
 int _oledSendCommand (int command)
 {

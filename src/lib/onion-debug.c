@@ -1,5 +1,6 @@
 #include <onion-debug.h>
 
+int onionVerbosityLevel = 0;
 
 void onionSetVerbosity (int verbosityLevel)
 {
