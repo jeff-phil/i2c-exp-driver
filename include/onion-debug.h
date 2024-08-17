@@ -20,9 +20,6 @@
 extern "C" {
 #endif 
 
-#ifdef __cplusplus
-extern 
-#endif 
 extern int 	onionVerbosityLevel;
 
 // debug functions
